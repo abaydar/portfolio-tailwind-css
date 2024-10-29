@@ -9,7 +9,7 @@ const CustomLink = ({ href, children }: CustomLinkProps) => {
     <a href={href} className="mr-5 hover:text-gray-900">
       {children}
     </a>
-  )
-}
+  );
+};
 
-export default CustomLink
+export default CustomLink;

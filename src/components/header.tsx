@@ -1,5 +1,5 @@
-import { navigationLinks } from "../lib/data/navigationLinks"
-import CustomLink from "./link"
+import { navigationLinks } from '../lib/data/navigationLinks';
+import CustomLink from './link';
 
 const Header = () => {
   return (
@@ -21,7 +21,7 @@ const Header = () => {
         </div>
       </header>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
