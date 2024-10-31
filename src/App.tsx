@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/about';
+import Experience from './components/experience';
 import Header from './components/header';
 import Skills from './components/skills';
 
@@ -13,6 +14,7 @@ function App() {
         </div>
         <div className='w-3/4 overflow-y-scroll p-4 text-center'>
           <Skills/>
+          <Experience/>
         </div>
       </div>
     </>
