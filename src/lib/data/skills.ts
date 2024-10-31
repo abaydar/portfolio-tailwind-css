@@ -27,5 +27,43 @@ export const skills = [
   'Segment',
   'New Relic',
   'VBA',
-  'SAP'
+  'SAP',
+];
+
+export const languages = [
+  'TypeScript',
+  'JavaScript',
+  'Ruby',
+  'HTML',
+  'CSS',
+];
+
+export const frameworks = [
+  'Next.js',
+  'React',
+  'Tailwind CSS',
+  'Node.js',
+  'Serverless',
+  'Ruby on Rails',
+];
+
+export const tools = [
+  'Piano',
+  'AWS',
+  'Jenkins',
+  'Travis CI',
+  'Git',
+  'GitHub',
+  'Docker',
+  'WordPress VIP',
+  'Jira',
+  'Confluence',
+  'Figma',
+  'Braintree',
+  'Google Tag Manager',
+  'Google Analytics',
+  'Segment',
+  'New Relic',
+  'VBA',
+  'SAP',
 ];

@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @layer components {
-  .p-tag {
+  .experience-item {
     @apply
     p-6
     scale-90
     hover:scale-100
     hover:shadow-2xl
-    hover:border-rose-700
+    hover:border-rose-200
     transition
     ease-in-out
     duration-500
