@@ -3,7 +3,7 @@ import { frameworks, languages, tools } from '../lib/data/skills';
 
 const Skills: React.FC = () => {
   return (
-    <div id='skills' className="p-4 text-left">
+    <div id='skills' className="p-4 text-left target:pt-20 pt-20">
       <h2 className="text-2xl font-bold mb-4">Skills</h2>
       <h3 className="text-lg font-bold mb-4">Languages</h3>
       <ul className="flex flex-wrap gap-4">

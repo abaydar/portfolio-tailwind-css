@@ -1,14 +1,18 @@
 import React from 'react';
+import { aboutData } from '../lib/data/aboutData';
 
 const About: React.FC = () => {
   return (
-    <div className="p-6 text-purple-300">
-      <h1 className="text-3xl font-bold mb-4">Amanda Baydar</h1>
-      <p className="text-lg">
-        Web Developer
-      </p>
+    <div id="about" className="p-6 text-purple-300 target:pt-20">
+      <h1 className="text-3xl font-bold mb-2">{aboutData.name}</h1>
+      <h2 className="text-2xl">
+        {aboutData.title}
+      </h2>
+      <h3 className="text-xl mb-4">
+        {aboutData.location}
+      </h3>
       <p>
-      With a strong foundation in the semiconductor industry, where I spent several years working with chemicals for computer chip manufacturing, I made a pivotal shift into software development to engage more directly with the tech landscape. My background in chemistry equips me with robust technical and analytical skills.
+      {aboutData.description}
       </p>
     </div>
   );

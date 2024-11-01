@@ -1,12 +1,13 @@
 
 export interface CustomLinkProps {
   href: string;
+  className?: string;
   children: string;
 }
 
-const CustomLink = ({ href, children }: CustomLinkProps) => {
+const CustomLink = ({ href, className = '', children }: CustomLinkProps) => {
   return (
-    <a href={href} className="mr-5 hover:text-gray-900">
+    <a href={href} className={className}>
       {children}
     </a>
   );

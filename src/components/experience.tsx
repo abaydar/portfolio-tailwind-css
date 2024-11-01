@@ -3,7 +3,8 @@ import { experienceData } from '../lib/data/experienceData';
 
 const Experience: React.FC = () => {
   return (
-    <div className="experience">
+    <div id="experience" className="target:pt-20">
+      <h2 className="text-2xl font-bold mb-4">Experience</h2>
       {experienceData.map((experience, index) => (
         <div key={index} className="experience-item">
           <h2 className="company">{experience.company}</h2>
