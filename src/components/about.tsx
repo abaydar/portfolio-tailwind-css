@@ -1,6 +1,8 @@
 import React from 'react';
 import { aboutData } from '../lib/data/aboutData';
+import CustomLink from './customLink';
 import githubMarkWhite from '../icons/githubMarkWhite.svg';
+import linkedinWhite from '../icons/linkedinWhite.svg';
 
 const About: React.FC = () => {
   return (
@@ -15,7 +17,12 @@ const About: React.FC = () => {
       <p>
       {aboutData.description}
       </p>
-      <img src={githubMarkWhite} alt="GitHub Mark White" className="w-8 h-8 inline-block"/>
+      <CustomLink href="https://github.com/abaydar">
+        <img src={githubMarkWhite} alt="GitHub Mark White" className="w-8 h-8 inline-block"/>
+      </CustomLink>
+      <CustomLink href="https://www.linkedin.com/in/amanda-baydar/">
+        <img src={linkedinWhite} alt="Linkedin White" className="w-8 h-8 inline-block"/>
+      </CustomLink>
     </div>
   );
 };

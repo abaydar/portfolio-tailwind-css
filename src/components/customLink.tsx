@@ -2,7 +2,7 @@
 export interface CustomLinkProps {
   href: string;
   className?: string;
-  children: string;
+  children: string | JSX.Element;
 }
 
 const CustomLink = ({ href, className = '', children }: CustomLinkProps) => {
