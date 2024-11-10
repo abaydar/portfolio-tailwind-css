@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header/>
-      <div className="flex h-screen main-content max-w-[1280px] mx-auto p-8">
+      <div className="flex text-customGreen h-screen main-content max-w-[1280px] mx-auto p-8">
         <div className="w-1/3 p-4 sticky top-0 h-screen">
           <About/>
         </div>

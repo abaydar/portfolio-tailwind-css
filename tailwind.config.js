@@ -2,7 +2,12 @@
 export default {
   content: ['./src/index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customGreen: '#dcfbfa',
+        customIndigo: '#646cff',
+      },
+    },
   },
   plugins: [],
 }

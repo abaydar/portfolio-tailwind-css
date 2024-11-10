@@ -28,6 +28,7 @@ export const skills = [
   'New Relic',
   'VBA',
   'SAP',
+  'GraphQL',
 ];
 
 export const languages = [
@@ -56,6 +57,7 @@ export const tools = [
   'GitHub',
   'Docker',
   'WordPress VIP',
+  'GraphQL',
   'Jira',
   'Confluence',
   'Figma',
