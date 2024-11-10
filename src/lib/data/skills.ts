@@ -67,7 +67,4 @@ export const tools = [
   'Google Tag Manager',
   'Google Analytics',
   'Segment',
-  'New Relic',
-  'VBA',
-  'SAP',
 ];
