@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [isExperienceHovered, setIsExperienceHovered] = useState(false);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -20,11 +21,12 @@ function App() {
       window.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
+  console.log(isExperienceHovered);
   
   return (
     <>
     <div
-      className="pointer-events-none fixed inset-0 z-50 bg-blue-200 rounded-full opacity-50"
+      className={`pointer-events-none fixed inset-0 z-50 bg-blue-200 rounded-full opacity-50 transition-transform duration-300 ease-out ${isExperienceHovered ? 'hidden' : ''}`}
       style={{
         width: '100px',
         height: '100px',
@@ -41,7 +43,7 @@ function App() {
         </div>
         <div className='w-2/3 overflow-y-scroll p-4 text-center'>
           <Skills/>
-          <Experience/>
+          <Experience setIsExperienceHovered={setIsExperienceHovered}/>
           <Contact/>
         </div>
       </div>
