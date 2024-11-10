@@ -1,5 +1,5 @@
 import React from 'react';
-import { frameworks, languages, tools } from '../lib/data/skills';
+import { frontend, backend, languages, tools } from '../lib/data/skills';
 
 const Skills: React.FC = () => {
   return (
@@ -13,11 +13,19 @@ const Skills: React.FC = () => {
           </li>
         ))}
       </ul>
-      <h3 className="text-lg font-bold mb-4">Frameworks</h3>
+      <h3 className="text-lg font-bold mb-4">Frontend</h3>
       <ul className="flex flex-wrap gap-4">
-        {frameworks.map((framework, index) => (
+        {frontend.map((frontend, index) => (
           <li key={index} className="text-lg flex-1 min-w-[30%] p-4">
-            {framework}
+            {frontend}
+          </li>
+        ))}
+      </ul>
+      <h3 className="text-lg font-bold mb-4">Backend</h3>
+      <ul className="flex flex-wrap gap-4">
+        {backend.map((backend, index) => (
+          <li key={index} className="text-lg flex-1 min-w-[30%] p-4">
+            {backend}
           </li>
         ))}
       </ul>

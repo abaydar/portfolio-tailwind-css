@@ -35,17 +35,23 @@ export const languages = [
   'TypeScript',
   'JavaScript',
   'Ruby',
-  'HTML',
-  'CSS',
 ];
 
-export const frameworks = [
+export const frontend = [
   'Next.js',
   'React',
   'Tailwind CSS',
+  'WordPress',
+  'CSS',
+  'HTML',
+];
+
+export const backend = [
   'Node.js',
-  'Serverless',
   'Ruby on Rails',
+  'Serverless',
+  'Docker',
+  'GraphQL',
 ];
 
 export const tools = [
@@ -54,10 +60,6 @@ export const tools = [
   'Jenkins',
   'Travis CI',
   'Git',
-  'GitHub',
-  'Docker',
-  'WordPress VIP',
-  'GraphQL',
   'Jira',
   'Confluence',
   'Figma',
