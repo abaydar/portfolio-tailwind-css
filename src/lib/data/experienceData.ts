@@ -1,10 +1,10 @@
 export const experienceData = [
   {
-    company: 'Company 1',
-    role: 'Role 1',
-    duration: 'Duration 1',
-    location: 'Location 1',
-    description: 'Description 1'
+    company: 'Fortune Media',
+    role: 'Web Developer',
+    duration: 'February 2022 - Present',
+    location: 'New York, NY',
+    description: ''
   },
   {
     company: 'Company 2',

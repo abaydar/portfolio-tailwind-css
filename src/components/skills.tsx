@@ -2,7 +2,11 @@ import React from 'react';
 import { frontend, backend, languages, tools } from '../lib/data/skills';
 import { SvgIcon } from './svgIcon';
 
-const Skills: React.FC = () => {
+interface SkillsProps {
+  setIsExperienceHovered: (isExperienceHovered: boolean) => void;
+}
+
+const Skills: React.FC<SkillsProps> = ({ setIsExperienceHovered }) => {
   const createSkillObject = (skill: string) => {
     const formattedSkill = skill.replace(/[ .]/g, '').toLowerCase();
     return {
@@ -25,7 +29,12 @@ const Skills: React.FC = () => {
       <h3 className="text-2xl text-center font-bold mb-8">Languages</h3>
       <ul className="flex flex-wrap gap-4 mb-8">
         {skills.languages.map((language, index) => (
-          <li key={index} className="skills-item">
+          <li
+            key={index}
+            className="skills-item"
+            onMouseEnter={() => setIsExperienceHovered(true)}
+            onMouseLeave={() => setIsExperienceHovered(false)}
+          >
             <SvgIcon name={language.icon} alt={language.alt} className="w-10 h-10 mb-2"/>
             {language.name}
           </li>
