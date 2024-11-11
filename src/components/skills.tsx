@@ -1,11 +1,13 @@
 import React from 'react';
 import { frontend, backend, languages, tools } from '../lib/data/skills';
+import { SvgIcon } from './svgIcon';
 
 const Skills: React.FC = () => {
   const createSkillObject = (skill: string) => {
+    const formattedSkill = skill.replace(/[ .]/g, '').toLowerCase();
     return {
       name: skill,
-      icon: `${skill.toLowerCase()}Icon`,
+      icon: `${formattedSkill}Icon`,
       alt: `${skill} Icon`
     };
   };
@@ -24,6 +26,7 @@ const Skills: React.FC = () => {
       <ul className="flex flex-wrap gap-4">
         {skills.languages.map((language, index) => (
           <li key={index} className="text-lg flex-1 min-w-[30%] p-4">
+            <SvgIcon name={language.icon} alt={language.alt} className="w-10 h-10 mr-2"/>
             {language.name}
           </li>
         ))}
@@ -32,6 +35,7 @@ const Skills: React.FC = () => {
       <ul className="flex flex-wrap gap-4">
         {skills.frontend.map((frontend, index) => (
           <li key={index} className="text-lg flex-1 min-w-[30%] p-4">
+            <SvgIcon name={frontend.icon} alt={frontend.alt} className="w-10 h-10 mr-2"/>
             {frontend.name}
           </li>
         ))}
@@ -40,6 +44,7 @@ const Skills: React.FC = () => {
       <ul className="flex flex-wrap gap-4">
         {skills.backend.map((backend, index) => (
           <li key={index} className="text-lg flex-1 min-w-[30%] p-4">
+            <SvgIcon name={backend.icon} alt={backend.alt} className="w-10 h-10 mr-2"/>
             {backend.name}
           </li>
         ))}
@@ -48,6 +53,7 @@ const Skills: React.FC = () => {
       <ul className="flex flex-wrap gap-4">
         {skills.tools.map((tool, index) => (
           <li key={index} className="text-lg flex-1 min-w-[30%] p-4">
+            <SvgIcon name={tool.icon} alt={tool.alt} className="w-10 h-10 mr-2"/>
             {tool.name}
           </li>
         ))}
