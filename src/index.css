@@ -9,13 +9,35 @@
     scale-90
     hover:scale-100
     hover:shadow-2xl
-    hover:border-rose-200
     transition
     ease-in-out
     duration-500
-    my-2 border
-    border-gray-200
+    my-2
+    border
+    border-customIndigo
     rounded-2xl
+    bg-lightIndigo
+  }
+
+  .skills-item {
+    @apply
+    text-lg
+    flex-1
+    min-w-[30%]
+    p-4
+    flex
+    flex-col
+    items-center
+    border
+    border-customIndigo
+    rounded-2xl
+    bg-lightIndigo
+    scale-90
+    hover:scale-100
+    hover:shadow-2xl
+    transition
+    ease-in-out
+    duration-500
   }
 }
 

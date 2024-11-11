@@ -5,7 +5,8 @@ export default {
     extend: {
       colors: {
         customGreen: '#dcfbfa',
-        customIndigo: '#646cff',
+        customIndigo: '#37386e',
+        lightIndigo: '#e1e2f0',
       },
     },
   },

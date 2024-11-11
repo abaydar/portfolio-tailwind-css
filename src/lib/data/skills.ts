@@ -52,6 +52,7 @@ export const backend = [
   'Serverless',
   'Docker',
   'GraphQL',
+  'Lambda'
 ];
 
 export const tools = [

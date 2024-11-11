@@ -8,7 +8,7 @@ import linkedinIcon from '../assets/linkedinIcon.svg';
 
 const About: React.FC = () => {
   return (
-    <div id="about" className="p-6 text-customGreen dark:text-purple-300 target:pt-20">
+    <div id="about" className="p-6 dark:text-purple-300 target:pt-20">
       <h1 className="text-3xl font-bold mb-2">{aboutData.name}</h1>
       <h2 className="text-2xl">
         {aboutData.title}
