@@ -17,6 +17,7 @@
     border-customIndigo
     rounded-2xl
     bg-lightIndigo
+    font-bold
   }
 
   .skills-item {
@@ -38,6 +39,7 @@
     transition
     ease-in-out
     duration-500
+    font-bold
   }
 }
 
