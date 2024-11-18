@@ -57,7 +57,11 @@ export const backend = [
 
 export const tools = [
   'Piano',
+  'Segment',
   'AWS',
+  'Google Tag Manager',
+  'Google Analytics',
+  'Iterable',
   'Jenkins',
   'Travis CI',
   'Git',
@@ -65,7 +69,4 @@ export const tools = [
   'Confluence',
   'Figma',
   'Braintree',
-  'Google Tag Manager',
-  'Google Analytics',
-  'Segment',
 ];

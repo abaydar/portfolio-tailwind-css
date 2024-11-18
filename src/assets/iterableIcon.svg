@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="50 25 192 143" style="enable-background:new 50 25 192 143;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.25;fill:#59C1A7;enable-background:new    ;}
+	.st1{opacity:0.25;fill:#36C3F2;enable-background:new    ;}
+	.st2{opacity:0.15;fill:#EF3D55;enable-background:new    ;}
+	.st3{opacity:0.15;fill:#6A266D;enable-background:new    ;}
+	.st4{fill:#6A266D;}
+	.st5{fill:#36C3F2;}
+	.st6{fill:#59C1A7;}
+	.st7{fill:#EF3D55;}
+	.st8{fill:#333332;}
+	.st9{fill:none;}
+</style>
+<g id="Lines">
+	
+		<rect x="140.4" y="74.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -12.7722 138.3672)" class="st0" width="40.4" height="20.3"/>
+	
+		<rect x="150.3" y="35.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 7.5244 129.821)" class="st1" width="20.3" height="40.4"/>
+	
+		<rect x="121.3" y="64.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -21.341 117.7495)" class="st2" width="20.3" height="40.4"/>
+	
+		<rect x="111.9" y="45" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -0.2944 109.5877)" class="st3" width="40.4" height="20.4"/>
+</g>
+<g id="Nodes">
+	<circle class="st4" cx="146" cy="41.3" r="10.2"/>
+	<circle class="st5" cx="174.9" cy="70.4" r="10.2"/>
+	<circle class="st6" cx="146" cy="99.3" r="10.2"/>
+	<circle class="st7" cx="117.1" cy="70.3" r="10.2"/>
+</g>
+<rect x="50" y="25.3" class="st9" width="192" height="143"/>
+</svg>
