@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
     <div id="contact" className="p-4 rounded-lg shadow-md">
       <h2 className="text-2xl font-bold mb-4 dark:text-purple-300">Send me an email:</h2>
       <div className="mb-2">
-        <CustomLink href="mailto:amandabaydar@gmail.com" className="text-pink-400 dark:text-purple-300">amandabaydar@gmail.com</CustomLink>
+        <CustomLink href="mailto:amandabaydar@gmail.com">amandabaydar@gmail.com</CustomLink>
       </div>
     </div>
   );

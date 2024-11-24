@@ -1,12 +1,10 @@
 import './App.css';
-import About from './components/summary';
 import Contact from './components/contact';
 import Experience from './components/experience';
 import Header from './components/header';
 import Skills from './components/skills';
 import { useEffect, useState } from 'react';
 import Summary from './components/summary';
-import { aboutData } from './lib/data/aboutData';
 import AboutMe from './components/aboutMe';
 
 function App() {
