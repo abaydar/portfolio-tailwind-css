@@ -36,6 +36,9 @@ function App() {
           boxShadow: '0 0 40px 60px rgba(100, 108, 255, 0.1)',
         }}
         />
+      {
+        //TODO: why is header not sticky on mobile
+      }
       <Header/>
       <div className="flex flex-col md:flex-row text-customIndigo h-screen max-w-[1280px] mx-auto p-2 md:p-8">
         <div className="w-full md:w-1/3 p-4 md:sticky md:top-0 md:h-screen">
