@@ -20,16 +20,16 @@ const Summary: React.FC = () => {
       {summaryData.description}
       </p>
       <div className="mt-4">
-        <CustomLink href="https://github.com/abaydar">
+        <CustomLink href="https://github.com/abaydar" target="_blank">
           <img src={githubMarkWhite} alt="GitHub Mark White" className="hidden dark:inline-block w-8 h-8 mr-4"/>
         </CustomLink>
-        <CustomLink href="https://github.com/abaydar">
+        <CustomLink href="https://github.com/abaydar" target="_blank">
           <img src={githubMark} alt="GitHub Mark" className="dark:hidden w-8 h-8 inline-block mr-4"/>
         </CustomLink>
-        <CustomLink href="https://www.linkedin.com/in/amanda-baydar/">
+        <CustomLink href="https://www.linkedin.com/in/amanda-baydar/" target="_blank">
           <img src={linkedinIcon} alt="Linkedin" className="dark:hidden w-8 h-8 inline-block"/>
         </CustomLink>
-        <CustomLink href="https://www.linkedin.com/in/amanda-baydar/">
+        <CustomLink href="https://www.linkedin.com/in/amanda-baydar/" target="_blank">
           <img src={linkedinIconWhite} alt="Linkedin White" className="hidden dark:inline-block w-8 h-8"/>
         </CustomLink>
       </div>
