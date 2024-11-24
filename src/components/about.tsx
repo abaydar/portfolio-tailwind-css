@@ -1,10 +1,10 @@
 import React from 'react';
 import { aboutData } from '../lib/data/aboutData';
 import CustomLink from './customLink';
-import githubMark from '../assets/githubMark.svg';
-import githubMarkWhite from '../assets/githubMarkWhite.svg';
-import linkedinIconWhite from '../assets/linkedinIconWhite.svg';
-import linkedinIcon from '../assets/linkedinIcon.svg';
+import githubMark from '../assets/icons/githubMark.svg';
+import githubMarkWhite from '../assets/icons/githubMarkWhite.svg';
+import linkedinIconWhite from '../assets/icons/linkedinIconWhite.svg';
+import linkedinIcon from '../assets/icons/linkedinIcon.svg';
 
 const About: React.FC = () => {
   return (

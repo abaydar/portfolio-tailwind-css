@@ -15,7 +15,7 @@ const useSvgIconImport = (name: string) => {
     const importIcon = async () => {
       try {
         importRef.current = (
-          await import(`../assets/${name}.svg?react`)
+          await import(`../assets/icons/${name}.svg?react`)
         ).default;
       } catch (err) {
         setError(err as Error);
