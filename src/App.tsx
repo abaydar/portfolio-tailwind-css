@@ -25,7 +25,6 @@ function App() {
   
   return (
     <>
-      <Header/>
       <div
         className={`pointer-events-none fixed inset-0 z-50 bg-blue-200 rounded-full opacity-50 transition-transform duration-300 ease-out ${isExperienceHovered ? 'hidden' : ''}`}
         style={{
@@ -36,12 +35,13 @@ function App() {
           transform: `translate(${position.x - 30}px, ${position.y - 30}px)`,
           boxShadow: '0 0 40px 60px rgba(100, 108, 255, 0.1)',
         }}
-      />
-      <div className="flex flex-col md:flex-row text-customIndigo h-screen main-content max-w-[1280px] mx-auto p-2 md:p-8">
+        />
+      <Header/>
+      <div className="flex flex-col md:flex-row text-customIndigo h-screen max-w-[1280px] mx-auto p-2 md:p-8">
         <div className="w-full md:w-1/3 p-4 md:sticky md:top-0 md:h-screen">
           <Summary/>
         </div>
-        <div className='w-full md:w-2/3 md:overflow-y-scroll p-4 text-center scrollbar-hide'>
+        <div className='w-full md:w-2/3 md:overflow-y-scroll p-4 text-center md:scrollbar-hide'>
           <Skills setIsExperienceHovered={setIsExperienceHovered}/>
           <Experience setIsExperienceHovered={setIsExperienceHovered}/>
           <AboutMe/>
