@@ -16,11 +16,21 @@ const Experience: React.FC<ExperienceProps> = ({ setIsExperienceHovered }) => {
           onMouseEnter={() => setIsExperienceHovered(true)}
           onMouseLeave={() => setIsExperienceHovered(false)}
         >
-          <h2 className="company">{experience.company}</h2>
-          <h3 className="role">{experience.role}</h3>
-          <p className="location">{experience.location}</p>
-          <p className="duration">{experience.duration}</p>
-          <p className="description">{experience.description}</p>
+        <div className="grid grid-cols-2 items-start mb-8">
+        <div className="text-left">
+          <h3 className="text-2xl">{experience.company}</h3>
+          <h2 className="text-xl">{experience.role}</h2>
+        </div>
+        <div className="text-right text-lg">
+          <p>{experience.duration}</p>
+          <p>{experience.location}</p>
+        </div>
+        </div>
+          <ul className="list-disc pl-6 text-left">{
+            experience.description.map((desc, index) => (
+              <li className="pl-2 mb-2" key={index}>{desc}</li>)
+            )}
+          </ul>
         </div>
       ))}
     </div>
