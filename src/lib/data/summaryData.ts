@@ -1,4 +1,4 @@
-export const aboutData = {
+export const summaryData = {
   name: 'Amanda Baydar',
   title: 'Web Developer',
   location: 'Jersey City, NJ',

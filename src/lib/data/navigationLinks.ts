@@ -1,6 +1,6 @@
 export const navigationLinks = [
-  'about',
   'skills',
   'experience',
+  'about',
   'contact',
 ];
