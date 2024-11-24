@@ -6,7 +6,7 @@
   .experience-item {
     @apply
     p-6
-    scale-90
+    sm:scale-90
     hover:scale-100
     hover:shadow-2xl
     transition
@@ -17,28 +17,6 @@
     border-customIndigo
     rounded-2xl
     bg-lightIndigo
-    font-bold
-  }
-
-  .skills-item {
-    @apply
-    text-lg
-    flex-1
-    min-w-[30%]
-    p-4
-    flex
-    flex-col
-    items-center
-    border
-    border-customIndigo
-    rounded-2xl
-    bg-lightIndigo
-    scale-90
-    hover:scale-100
-    hover:shadow-2xl
-    transition
-    ease-in-out
-    duration-500
     font-bold
   }
 }

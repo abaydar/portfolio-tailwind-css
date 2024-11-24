@@ -23,12 +23,12 @@ const GroupedSkills: React.FC<GroupedSkillsProps> = ({ groupName, skills, setIsE
         {skills.map((skill, index) => (
           <li
             key={index}
-            className="relative p-4 w-40 rounded-lg transition-all duration-300 group m-auto"
+            className="relative p-4 md:w-40 rounded-lg group m-auto"
             onMouseEnter={() => setIsExperienceHovered(true)}
             onMouseLeave={() => setIsExperienceHovered(false)}
           >
             <div className="absolute inset-0 bg-white/20 rounded-lg backdrop-blur-sm opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none"></div>
-            <div className="absolute inset-0 rounded-lg shadow-md group-hover:shadow-2xl transition-shadow duration-300 pointer-events-none"></div>
+            <div className="absolute inset-0 sm:rounded-lg sm:shadow-md group-hover:shadow-2xl transition-shadow duration-300 pointer-events-none"></div>
             <div className="relative flex flex-col items-center">
               <SvgIcon name={skill.icon} alt={skill.alt} className="w-10 h-10 mb-2"/>
               <span className="font-semibold">{skill.name}</span>

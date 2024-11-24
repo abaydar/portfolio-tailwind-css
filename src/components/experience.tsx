@@ -16,12 +16,12 @@ const Experience: React.FC<ExperienceProps> = ({ setIsExperienceHovered }) => {
           onMouseEnter={() => setIsExperienceHovered(true)}
           onMouseLeave={() => setIsExperienceHovered(false)}
         >
-        <div className="grid grid-cols-2 items-start mb-8">
-        <div className="text-left">
-          <h3 className="text-2xl">{experience.company}</h3>
-          <h2 className="text-xl">{experience.role}</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 items-start mb-8">
+        <div className="md:text-left">
+          <h3 className="text-lg md:text-2xl">{experience.company}</h3>
+          <h2 className="md:text-xl">{experience.role}</h2>
         </div>
-        <div className="text-right text-lg">
+        <div className="md:text-right md:text-lg">
           <p>{experience.duration}</p>
           <p>{experience.location}</p>
         </div>

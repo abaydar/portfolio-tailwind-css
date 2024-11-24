@@ -37,11 +37,11 @@ function App() {
       }}
     />
       <Header/>
-      <div className="flex text-customIndigo h-screen main-content max-w-[1280px] mx-auto p-8">
-        <div className="w-1/3 p-4 sticky top-0 h-screen">
+      <div className="flex flex-col md:flex-row text-customIndigo h-screen main-content max-w-[1280px] mx-auto p-8">
+        <div className="w-full md:w-1/3 p-4 md:sticky md:top-0 md:h-screen">
           <Summary/>
         </div>
-        <div className='w-2/3 overflow-y-scroll p-4 text-center scrollbar-hide'>
+        <div className='w-full md:w-2/3 md:overflow-y-scroll p-4 text-center scrollbar-hide'>
           <Skills setIsExperienceHovered={setIsExperienceHovered}/>
           <Experience setIsExperienceHovered={setIsExperienceHovered}/>
           <AboutMe/>
