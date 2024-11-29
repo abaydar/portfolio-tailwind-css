@@ -25,7 +25,7 @@ const Skills: React.FC<SkillsProps> = ({ setIsExperienceHovered }) => {
 
   return (
     <div id='skills' className="p-4 text-left target:pt-20 md:pt-20 dark:text-purple-300">
-      <h2 className="text-3xl font-bold mb-4">Skills</h2>
+      <h2 className="text-3xl dark:text-customGreen font-bold mb-4">Skills</h2>
       {Object.entries(skills).map(([skillName, skillItems]) => (
         <GroupedSkills key={skillName} groupName={skillName} skills={skillItems} setIsExperienceHovered={setIsExperienceHovered} />
       ))}

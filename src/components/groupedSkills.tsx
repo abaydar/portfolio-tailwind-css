@@ -18,7 +18,7 @@ const GroupedSkills: React.FC<GroupedSkillsProps> = ({ groupName, skills, setIsE
   };
   return (
     <>
-      <h3 className="text-2xl text-center font-bold mb-8">{capitalize(groupName)}</h3>
+      <h3 className="text-2xl dark:text-customGreen text-center font-bold mb-8">{capitalize(groupName)}</h3>
       <ul className="flex flex-wrap gap-4 mb-8">
         {skills.map((skill, index) => (
           <li

@@ -8,7 +8,7 @@ interface ExperienceProps {
 const Experience: React.FC<ExperienceProps> = ({ setIsExperienceHovered }) => {
   return (
     <div id="experience" className="p-4 text-center target:pt-20">
-      <h2 className="text-3xl text-left ml-4 font-bold mb-4 dark:text-purple-300">Experience</h2>
+      <h2 className="text-3xl dark:text-customGreen text-left ml-4 font-bold mb-4">Experience</h2>
       {experienceData.map((experience, index) => (
         <div
           key={index}
