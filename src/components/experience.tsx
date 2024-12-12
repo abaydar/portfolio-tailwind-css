@@ -1,11 +1,7 @@
 import React from 'react';
 import { experienceData } from '../lib/data/experienceData';
 
-interface ExperienceProps {
-  setIsExperienceHovered: (isExperienceHovered: boolean) => void;
-}
-
-const Experience: React.FC<ExperienceProps> = ({ setIsExperienceHovered }) => {
+const Experience: React.FC = () => {
   return (
     <div id="experience" className="p-4 text-center target:pt-20">
       <h2 className="text-3xl dark:text-customGreen text-left ml-4 font-bold mb-4">Experience</h2>
@@ -13,8 +9,6 @@ const Experience: React.FC<ExperienceProps> = ({ setIsExperienceHovered }) => {
         <div
           key={index}
           className="experience-item"
-          onMouseEnter={() => setIsExperienceHovered(true)}
-          onMouseLeave={() => setIsExperienceHovered(false)}
         >
         <div className="grid grid-cols-1 md:grid-cols-2 items-start mb-8">
         <div className="md:text-left">

@@ -8,10 +8,9 @@ interface GroupedSkillsProps {
       icon: string; 
       alt: string; 
     }[]; 
-  setIsExperienceHovered: (isExperienceHovered: boolean) => void;
 }
 
-const GroupedSkills: React.FC<GroupedSkillsProps> = ({ groupName, skills, setIsExperienceHovered }) => {
+const GroupedSkills: React.FC<GroupedSkillsProps> = ({ groupName, skills }) => {
   const capitalize = (s: string) => {
     if (typeof s !== 'string') return '';
     return s.charAt(0).toUpperCase() + s.slice(1);
@@ -24,8 +23,6 @@ const GroupedSkills: React.FC<GroupedSkillsProps> = ({ groupName, skills, setIsE
           <li
             key={index}
             className="relative p-4 md:w-40 rounded-lg group m-auto"
-            onMouseEnter={() => setIsExperienceHovered(true)}
-            onMouseLeave={() => setIsExperienceHovered(false)}
           >
             <div className="absolute inset-0 bg-white/20 rounded-lg backdrop-blur-sm opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none"></div>
             <div className="absolute inset-0 sm:rounded-lg sm:shadow-md group-hover:shadow-2xl transition-shadow duration-300 pointer-events-none"></div>
