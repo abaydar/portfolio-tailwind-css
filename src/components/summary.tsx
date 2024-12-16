@@ -1,8 +1,7 @@
 import React from 'react';
 import { summaryData } from '../lib/data/summaryData';
 import CustomLink from './customLink';
-import githubMark from '../assets/icons/githubMark.svg';
-
+import githubIcon from '../assets/icons/githubIcon.svg';
 import linkedinIcon from '../assets/icons/linkedinIcon.svg';
 
 const Summary: React.FC = () => {
@@ -20,7 +19,7 @@ const Summary: React.FC = () => {
       </p>
       <div className="mt-4">
         <CustomLink href="https://github.com/abaydar" target="_blank">
-          <img src={githubMark} alt="GitHub Mark" className="w-8 h-8 inline-block mr-4"/>
+          <img src={githubIcon} alt="GitHub" className="w-8 h-8 inline-block mr-4"/>
         </CustomLink>
         <CustomLink href="https://www.linkedin.com/in/amanda-baydar/" target="_blank">
           <img src={linkedinIcon} alt="Linkedin" className="w-8 h-8 inline-block"/>
@@ -31,5 +30,3 @@ const Summary: React.FC = () => {
 };
 
 export default Summary;
-
-//rgb(216 180 254 
