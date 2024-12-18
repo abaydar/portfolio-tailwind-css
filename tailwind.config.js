@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        customGreen: '#dcfbfa',
-        customIndigo: '#37386e',
-        lightIndigo: '#e1e2f0',
+        customYellow: '#fdc530',
+        lightBlue: '#cae9f2',
+        darkBlue: '#203b70',
       },
     },
   },
