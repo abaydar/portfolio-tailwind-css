@@ -6,8 +6,8 @@ import linkedinIcon from '../assets/icons/linkedinIcon.svg';
 
 const Summary: React.FC = () => {
   return (
-    <div className="h-[90vh] flex flex-col md:flex-row items-center md:items-start">
-     <div className="absolute top-20 right-10 flex justify-end space-x-4">
+    <div className="h-[90vh] flex flex-wrap">
+     <div className="flex w-full justify-end space-x-4">
         <CustomLink href="https://github.com/abaydar" target="_blank">
           <img src={githubIcon} alt="GitHub" className="w-8 h-8"/>
         </CustomLink>
@@ -16,9 +16,11 @@ const Summary: React.FC = () => {
         </CustomLink>
       </div>
 
-      {/* Content Section */}
-      <div className="w-full md:w-1/3 text-center md:text-left my-auto px-4">
-        <h1 className="text-3xl font-bold mb-2">{summaryData.greeting}</h1>
+      <div className="text-center w-full md:w-1/2 md:text-left px-4">
+        <h1
+          className="text-3xl font-bold mb-2"
+          dangerouslySetInnerHTML={{ __html: summaryData.greeting }}
+        />
         <p className="mb-4">{summaryData.description}</p>
         <button 
           className="bg-customYellow text-darkBlue text-xl font-bold rounded-full px-16"

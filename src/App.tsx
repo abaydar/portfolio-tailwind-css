@@ -8,16 +8,16 @@ import AboutMe from './components/aboutMe';
 
 function App() {
   return (
-    <>
+    <div className="h-screen overflow-y-auto">
       <Header/>
-      <div className="h-screen max-w-[1280px] mx-auto p-2 md:p-8">
+      <div className="max-w-[1280px] mx-auto p-2 md:p-8">
         <Summary/>
         <Skills />
         <Experience />
         <AboutMe/>
         <Contact/>
       </div>
-    </>
+    </div>
   );
 }
 
