@@ -3,7 +3,7 @@ import { experienceData } from '../lib/data/experienceData';
 
 const Experience: React.FC = () => {
   return (
-    <div id="experience" className="p-4 text-center target:pt-20">
+    <div id="experience" className="p-4 text-center target:pt-20 mb-40">
       <h2 className="text-3xl text-left ml-4 font-bold mb-4">Experience</h2>
       {experienceData.map((experience, index) => (
         <div

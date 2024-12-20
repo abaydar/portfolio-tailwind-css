@@ -4,7 +4,7 @@ import CustomLink from './customLink';
 const Header = () => {
   return (
     <>
-      <header className="sticky top-0 z-10 w-full bg-lightBlue">
+      <header className="sticky top-0 z-20 w-full bg-lightBlue">
         <div className="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
             {navigationLinks.map((link) => 

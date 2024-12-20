@@ -5,11 +5,11 @@ export const experienceData = [
     duration: 'February 2022 - Present',
     location: 'New York, NY',
     description: [
+      'Contributed to building a newsletter funnel by integrating Iterable with Segment and Google Analytics to track user journeys and enable data-driven insights.',
       'Led the replatforming of our codebase to integrate multiple business units, managing deliverables in a fast-paced environment to ensure future rapid delivery of stakeholder requirements.',
       'Successfully transitioned the site’s architecture from JavaScript to TypeScript using Next.js, improving code maintainability and reducing bugs.',
       'Built dynamic web pages using reusable blocks in WordPress with a headless CMS and Next.js as the frontend.',
       'Integrated Braintree into our codebase, facilitating seamless purchases of Fortune 500 lists directly from our site, replacing a cumbersome third-party solution.',
-      'Contributed to the redesign and implementation of our paywall system, enhancing user experience and streamlining access management.',
       'Fostered a collaborative development culture through pair programming, enhancing team productivity and knowledge sharing across cross-functional teams.',
     ]
   },
