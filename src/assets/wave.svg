@@ -1,9 +1,0 @@
-<svg width="0" height="0">
-
-  <clipPath id="wave-clip">
-
-    <path d="M 0,50 C 50, 100 100, 50 150, 50  C 200, 50 250, 100 300, 50  C 350, 50 400, 100 450, 50"  />
-
-  </clipPath>
-
-</svg>
