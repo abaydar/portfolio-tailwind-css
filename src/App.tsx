@@ -1,10 +1,10 @@
 import './App.css';
-import Contact from './components/contact';
 import Experience from './components/experience';
 import Header from './components/header';
 import Skills from './components/skills';
 import Summary from './components/summary';
 import AboutMe from './components/aboutMe';
+import ContactFooter from './components/contactFooter';
 
 function App() {
   return (
@@ -62,7 +62,11 @@ function App() {
         </div>
       </div>
 
-      <Contact />
+      <div className="w-screen bg-gradient-to-r from-gradientDarkBlue to-gradientLightBlue">
+        <div className="content-layout">
+          <ContactFooter />
+        </div>
+      </div>
     </div>
   );
 }
