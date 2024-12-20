@@ -17,6 +17,13 @@
     rounded-2xl
     font-bold
   }
+  .content-layout {
+    @apply
+    max-w-[1280px]
+    mx-auto
+    p-2
+    md:p-8
+  }
 }
 :root {
   font-family: 'Open Sans', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -25,7 +32,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #203b70;
+  /* background-color: #203b70; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

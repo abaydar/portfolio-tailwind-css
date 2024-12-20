@@ -7,6 +7,8 @@ export default {
         customYellow: '#fdc530',
         lightBlue: '#cae9f2',
         darkBlue: '#203b70',
+        gradientLightBlue: '#316eab',
+        gradientDarkBlue: '#2c3e50'
       },
     },
   },
