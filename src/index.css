@@ -24,6 +24,14 @@
     p-2
     md:p-8
   }
+
+  .clickable-button {
+    @apply
+    hover:scale-110
+    transition
+    ease-in-out
+    duration-500
+  }
 }
 :root {
   font-family: 'Open Sans', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
