@@ -14,10 +14,10 @@ const Summary: React.FC = () => {
 
       <div className="text-center w-full md:w-1/2 md:text-left px-4">
         <h1
-          className="text-3xl font-bold mb-2"
+          className="text-3xl lg:text-4xl font-bold mb-4 lg:mb-8"
           dangerouslySetInnerHTML={{ __html: summaryData.greeting }}
         />
-        <p className="mb-4">{summaryData.description}</p>
+        <p className="mb-4 lg:text-xl lg:mb-8">{summaryData.description}</p>
         <button 
           className="bg-customYellow text-darkBlue text-xl font-bold rounded-full px-16 clickable-button"
           onClick={() => window.open(`mailto:${summaryData.email}`)}
