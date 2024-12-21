@@ -8,8 +8,8 @@ const Summary: React.FC = () => {
   return (
     <div id="home" className="h-[90vh] flex flex-wrap target:pt-20">
      <div className="flex w-full justify-end space-x-4">
-        <ContactSvg href="" src={githubIcon} alt="GitHub" />
-        <ContactSvg href="" src={linkedinIcon} alt="GitHub" />
+        <ContactSvg href="https://github.com/abaydar" src={githubIcon} alt="GitHub" />
+        <ContactSvg href="https://www.linkedin.com/in/amanda-baydar/" src={linkedinIcon} alt="LinkedIn" />
       </div>
 
       <div className="text-center w-full md:w-1/2 md:text-left px-4">

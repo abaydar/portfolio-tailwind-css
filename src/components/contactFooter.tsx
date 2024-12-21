@@ -11,8 +11,8 @@ const ContactFooter: React.FC = () => {
           <CustomLink href="mailto:amandabaydar@gmail.com" className="text-lightBlue hover:text-customYellow">amandabaydar@gmail.com</CustomLink>
         </div>
         <div className="flex w-1/2 justify-end space-x-4">
-        <ContactSvg href="" src={githubIcon} alt="GitHub" />
-        <ContactSvg href="" src={linkedinIcon} alt="GitHub" />
+        <ContactSvg href="https://github.com/abaydar" src={githubIcon} alt="GitHub" />
+        <ContactSvg href="https://www.linkedin.com/in/amanda-baydar/" src={linkedinIcon} alt="LinkedIn" />
         </div>
     </div>
   );
