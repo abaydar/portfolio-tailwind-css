@@ -4,7 +4,7 @@ import ContactSvgs from './contactSvgs';
 
 const Summary: React.FC = () => {
   return (
-    <div className="h-[90vh] flex flex-wrap">
+    <div id="home" className="h-[90vh] flex flex-wrap target:pt-20">
      <div className="flex w-full justify-end space-x-4">
         <ContactSvgs />
       </div>

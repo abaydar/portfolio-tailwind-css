@@ -18,7 +18,7 @@ function App() {
         </div>
       </div>
 
-      <div className="w-full overflow-hidden -mt-40 relative z-15">
+      <div className="w-full overflow-hidden -mt-16 md:-mt-32 relative z-15">
         <svg viewBox="0 0 1440 150" className='w-full h-auto -mb-1'>
           <path
             d="M0,96 C288,32 576,160 864,96 C1152,32 1440,64 1440,64 L1440,160 L0,160 Z"
