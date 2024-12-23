@@ -4,7 +4,7 @@ import { experienceData } from '../lib/data/experienceData';
 const Experience: React.FC = () => {
   return (
     <div id="experience" className="p-4 text-center target:pt-20 mb-40">
-      <h2 className="text-3xl text-left ml-4 font-bold mb-4">Experience</h2>
+      <h2 className="text-3xl text-left font-bold mb-4">Experience</h2>
       {experienceData.map((experience, index) => (
         <div
           key={index}
@@ -20,9 +20,13 @@ const Experience: React.FC = () => {
           <p>{experience.location}</p>
         </div>
         </div>
-          <ul className="list-disc pl-6 text-left">{
+          <ul className="list-disc pl-6 text-left font-light md:columns-2 md:text-xl">{
             experience.description.map((desc, index) => (
-              <li className="pl-2 mb-2" key={index}>{desc}</li>)
+              <li
+                className="pl-2 mb-2"
+                key={index}
+                dangerouslySetInnerHTML={{ __html: desc }}
+              />)
             )}
           </ul>
         </div>

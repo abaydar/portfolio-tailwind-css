@@ -5,12 +5,12 @@ export const experienceData = [
     duration: 'February 2022 - Present',
     location: 'New York, NY',
     description: [
-      'Contributed to building a newsletter funnel by integrating Iterable with Segment and Google Analytics to track user journeys and enable data-driven insights.',
-      'Led the replatforming of our codebase to integrate multiple business units, managing deliverables in a fast-paced environment to ensure future rapid delivery of stakeholder requirements.',
-      'Successfully transitioned the site’s architecture from JavaScript to TypeScript using Next.js, improving code maintainability and reducing bugs.',
-      'Built dynamic web pages using reusable blocks in WordPress with a headless CMS and Next.js as the frontend.',
-      'Integrated Braintree into our codebase, facilitating seamless purchases of Fortune 500 lists directly from our site, replacing a cumbersome third-party solution.',
-      'Fostered a collaborative development culture through pair programming, enhancing team productivity and knowledge sharing across cross-functional teams.',
+      'Contributed to building a newsletter funnel by integrating Iterable with Segment and Google Analytics, resulting in <strong>clearer user journey insights</strong> for data-driven decision-making.',
+      'Led a codebase replatforming project to unify multiple business units, enabling <strong>faster delivery of stakeholder requests</strong> in a high-paced environment.',
+      'Transitioned the site’s architecture from JavaScript to TypeScript using Next.js, which <strong>improved code quality<strong> and <strong>reduced bugs</strong>.',
+      'Built dynamic web pages with reusable WordPress blocks and a headless CMS powered by Next.js, <strong>streamlining frontend updates</strong>.',
+      'Integrated Braintree into the codebase, which <strong>replaced a cumbersome third-party tool</strong> and enabled seamless Fortune 500 list purchases directly from the site.',
+      'Fostered a collaborative development culture through pair programming, <strong>enhancing team productivity</strong> and <strong>promoting knowledge sharing</strong> across teams.',
     ]
   },
   {
@@ -19,11 +19,11 @@ export const experienceData = [
     duration: 'September 2018 - February 2022',
     location: 'Branchburg, NJ',
     description: [
-      'Run up to 5 different instruments and interpret data in timely manner to deliver to team to meet product shipment deadlines.',
-      'Wrote macros to to facilitate processes involving data manipulation - decreased total time spent on tasks up to 90%.',
-      'Collaborate with R&D on methodology to improve timing and accuracy of analytical results.',
-      'Trained 70+ tech ops employees about electronics industry, company purpose and strategy so they understood the importance of their role within the company and enhance performance.',
-      'Volunteer member of the Emergency Response Team on site - attend trainings monthly for fire, hazmat, medical, and confined space rescue.',
+      'Wrote macros to streamline data manipulation processes, which <strong>reduced task completion time by up to 90%</strong>.',
+      'Operated and interpreted data from up to five instruments, ensuring <strong>on-time delivery of insights</strong> to meet product shipment deadlines.',
+      'Collaborated with R&D to refine methodologies, achieving <strong>more accurate and faster analytical results</strong>.',
+      'Trained 70+ tech ops employees on industry trends, company strategy, and role significance, <strong>boosting performance and engagement</strong>.',
+      '<strong>Volunteered as a member of the Emergency Response Team</strong>, completing monthly training in fire, hazmat, medical, and confined space rescue.',
     ]
   },
 ];
