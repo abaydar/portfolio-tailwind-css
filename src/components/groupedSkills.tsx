@@ -19,7 +19,7 @@ const GroupedSkills: React.FC<GroupedSkillsProps> = ({ groupName, skills }) => {
   const hasMoreThan3Skills = skills.length > 3;
   console.log(hasMoreThan3Skills);
   return (
-    <div className="text-lightBlue p-8 bg-gradient-to-r from-gradientDarkBlue to-gradientLightBlue m-4">
+    <div className="text-lightBlue p-8 bg-gradient-to-r from-gradientDarkBlue to-gradientLightBlue md:mx-8 md:mb-16 md:h-[30vw]">
       <h3 className="text-2xl text-center font-bold mb-8">{capitalize(groupName)}</h3>
       <ul className={hasMoreThan3Skills ? 'grid grid-cols-2 gap-4' : ''}>
         {skills.map((skill, index) => (
