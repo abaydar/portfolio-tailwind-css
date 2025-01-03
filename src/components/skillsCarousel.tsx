@@ -15,28 +15,30 @@ interface CarouselProps {
 const SkillsCarousel = ({ skills }: CarouselProps) => {
 
   return (
-    <Swiper
-      modules={[EffectCoverflow, Pagination]}
-      effect={'coverflow'}
-      grabCursor={true}
-      centeredSlides={true}
-      slidesPerView={3}
-      loop={true}
-      coverflowEffect={{
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      }}
-      pagination={{ clickable: true }}
-    >
-      {Object.entries(skills).map(([skillName, skillItems], index) => (
-        <SwiperSlide key={index}>
-          <GroupedSkills groupName={skillName} skills={skillItems} />
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    <div className=''>
+      <Swiper
+        modules={[EffectCoverflow, Pagination]}
+        // effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={1.75}
+        loop={true}
+        // coverflowEffect={{
+        //   rotate: 50,
+        //   stretch: 0,
+        //   depth: 100,
+        //   modifier: 1,
+        //   slideShadows: true,
+        // }}
+        pagination={{ clickable: true }}
+      >
+        {Object.entries(skills).map(([skillName, skillItems], index) => (
+          <SwiperSlide key={index}>
+            <GroupedSkills groupName={skillName} skills={skillItems} />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
   );
 };
 

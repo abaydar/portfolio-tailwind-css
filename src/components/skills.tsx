@@ -21,7 +21,10 @@ const Skills: React.FC = () => {
 
   return (
     <div id='skills' className="p-4 text-left target:pt-20 md:pt-20">
-      <SkillsCarousel skills={skills}/>
+      <h2 className="text-3xl text-left font-bold mb-4">Skills</h2>
+      {/* <div className="w-[200vw]"> */}
+        <SkillsCarousel skills={skills}/>
+      {/* </div> */}
     </div>
   );
 };

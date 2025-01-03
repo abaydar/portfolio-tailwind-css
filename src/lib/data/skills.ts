@@ -56,18 +56,10 @@ export const backend = [
 ];
 
 export const tools = [
-  'Piano',
   'Segment',
   'AWS',
   'GTM',
   'Google Analytics',
+  'Piano',
   'Iterable',
-  'Postman',
-  'Jenkins',
-  'Travis CI',
-  'Git',
-  'Jira',
-  'Confluence',
-  'Figma',
-  'Braintree',
 ];
