@@ -5,6 +5,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import GroupedSkills from './groupedSkills';
+import { useMediaQuery } from 'react-responsive';
 
 interface CarouselProps {
   skills: {
@@ -13,7 +14,8 @@ interface CarouselProps {
 }
 
 const SkillsCarousel = ({ skills }: CarouselProps) => {
-
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' });
+  const slidesPerView = isTabletOrMobile ? 1 : 1.75;
   return (
     <div className=''>
       <Swiper
@@ -21,7 +23,7 @@ const SkillsCarousel = ({ skills }: CarouselProps) => {
         // effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={1.75}
+        slidesPerView={slidesPerView}
         loop={true}
         // coverflowEffect={{
         //   rotate: 50,
