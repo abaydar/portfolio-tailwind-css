@@ -17,7 +17,7 @@ const SkillsCarousel = ({ skills }: CarouselProps) => {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' });
   const slidesPerView = isTabletOrMobile ? 1 : 1.75;
   return (
-    <div className=''>
+    <div className='mx-auto lg:w-screen lg:-mx-[50vw] lg:left-1/2 lg:relative'>
       <Swiper
         modules={[EffectCoverflow, Pagination]}
         // effect={'coverflow'}
