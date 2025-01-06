@@ -29,7 +29,7 @@ const GroupedSkills: React.FC<GroupedSkillsProps> = ({ groupName, skills }) => {
           >
             <div className="flex items-center flex-nowrap">
               <SvgIcon name={skill.icon} alt={skill.alt} className="md:w-10 md:h-10 h-5 w-5"/>
-              <span className="font-semibold pl-4 text-sm md:text-lg">{skill.name}</span>
+              <span className="pl-4 text-sm md:text-lg">{skill.name}</span>
             </div>
           </li>
         ))}
