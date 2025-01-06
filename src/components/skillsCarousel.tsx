@@ -15,7 +15,6 @@ interface CarouselProps {
 
 const SkillsCarousel = ({ skills }: CarouselProps) => {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' });
-  const isMobile = useMediaQuery({ query: '(max-width: 640px)' });
   const slidesPerView = isTabletOrMobile ? 1 : 2.5;
   return (
     <div className='mx-auto lg:w-screen lg:-mx-[50vw] lg:left-1/2 lg:relative'>
@@ -30,7 +29,7 @@ const SkillsCarousel = ({ skills }: CarouselProps) => {
         className='xl:pt-20 lg:pt-8'
       >
         {Object.entries(skills).map(([skillName, skillItems], index) => (
-          <SwiperSlide key={index} className={`bg-gradient-to-r from-gradientDarkBlue to-gradientLightBlue text-lightBlue p-8 mb-10 lg:mb-16 ${isMobile ? 'h-[300px]' : 'h-[360px]'}`}>
+          <SwiperSlide key={index} className={'bg-gradient-to-r from-gradientDarkBlue to-gradientLightBlue text-lightBlue p-8 mb-10 lg:mb-16 h-[300px] md:h-[360px]'}>
             <GroupedSkills groupName={skillName} skills={skillItems} />
           </SwiperSlide>
         ))}
