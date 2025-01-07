@@ -11,13 +11,12 @@ interface GroupedSkillsProps {
 }
 
 const GroupedSkills: React.FC<GroupedSkillsProps> = ({ groupName, skills }) => {
-  
   const capitalize = (s: string) => {
     if (typeof s !== 'string') return '';
     return s.charAt(0).toUpperCase() + s.slice(1);
   };
   const hasMoreThan3Skills = skills.length > 3;
-  console.log(hasMoreThan3Skills);
+  
   return (
     <div className="">
       <h3 className="text-lg md:text-2xl text-center font-bold mb-4">{capitalize(groupName)}</h3>
