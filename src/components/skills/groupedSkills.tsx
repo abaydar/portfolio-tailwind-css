@@ -1,5 +1,5 @@
 import React from 'react';
-import { SvgIcon } from './svgIcon';
+import { SvgIcon } from '../svgIcon';
 
 interface GroupedSkillsProps {
   groupName: string;
