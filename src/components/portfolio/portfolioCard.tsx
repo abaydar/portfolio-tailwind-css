@@ -9,7 +9,7 @@ interface PortfolioCardProps {
 
 const PortfolioCard: React.FC<PortfolioCardProps> = ({ title, description, imageUrl, projectUrl }) => {
   return (
-    <div className="max-w-sm overflow-hidden shadow-lg shadow-black text-darkBlue bg-lightBlue px-12 py-8">
+    <div className="max-w-sm overflow-hidden shadow-lg shadow-black text-darkBlue bg-lightBlue px-12 py-8 flex flex-col justify-between">
       <div className="font-bold text-xl mb-2">{title}</div>
       <img className="w-full" src={imageUrl} alt={title} />
       <div className="py-4">

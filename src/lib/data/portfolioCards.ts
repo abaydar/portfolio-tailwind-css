@@ -9,23 +9,16 @@ interface PortfolioCard {
 export const portfolioCards: PortfolioCard[] = [
   {
     id: 1,
-    title: 'Project One',
-    description: 'This is the first project',
-    imageUrl: 'https://via.placeholder.com/150',
-    projectUrl: 'https://www.example.com'
+    title: 'Tech Networking',
+    description: 'An app to connect graduates entering the tech industry, offering a platform to share job-seeking experiences, discuss code, practice algorithms, and build connections.',
+    imageUrl: '/src/assets/images/tech-networking.jpg',
+    projectUrl: 'https://wizardly-yonath-16fb12.netlify.app/'
   },
   {
     id: 2,
-    title: 'Project Two',
-    description: 'This is the second project',
-    imageUrl: 'https://via.placeholder.com/150',
-    projectUrl: 'https://www.example.com'
-  },
-  {
-    id: 3,
-    title: 'Project Three',
-    description: 'This is the third project',
-    imageUrl: 'https://via.placeholder.com/150',
-    projectUrl: 'https://www.example.com'
-  },
+    title: 'Books Journey',
+    description: 'An app designed for users to add their recently read books and explore what others are reading.',
+    imageUrl: '/src/assets/images/books-journey.webp',
+    projectUrl: 'https://upbeat-mcclintock-08a2d1.netlify.app/'
+  }
 ];
