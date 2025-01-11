@@ -1,5 +1,5 @@
 import React from 'react';
-import { frontend, backend, languages, tools } from '../lib/data/skills';
+import { frontend, backend, languages, tools } from '../../lib/data/skills';
 import SkillsCarousel from './skillsCarousel';
 
 const Skills: React.FC = () => {
