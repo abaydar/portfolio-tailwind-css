@@ -6,7 +6,7 @@ import linkedinIcon from '../assets/icons/linkedinIcon.svg';
 
 const ContactFooter: React.FC = () => {
   return (
-    <div id="contact" className='flex p-4 md:p-0'>
+    <div className='flex p-4 md:p-0'>
         <div className="w-1/2">
           <CustomLink href="mailto:amandabaydar@gmail.com" className="text-lightBlue hover:text-customYellow">amandabaydar@gmail.com</CustomLink>
         </div>
