@@ -1,11 +1,11 @@
 import './App.css';
-import Experience from './components/experience';
+// import Experience from './components/experience';
 import Header from './components/header';
 import Skills from './components/skills';
 import Summary from './components/summary';
 import AboutMe from './components/aboutMe';
 import ContactFooter from './components/contactFooter';
-// import Portfolio from './components/portfolio';
+import Portfolio from './components/portfolio';
 
 function App() {
   return (
@@ -45,8 +45,8 @@ function App() {
       <div className="relative w-screen bg-gradient-to-r from-gradientDarkBlue to-gradientLightBlue">
         <div className="absolute inset-0 before:absolute before:inset-0 before:bg-[url('/src/assets/images/circuitLeft.png')] before:bg-no-repeat before:bg-cover before:bg-center before:opacity-50 pointer-events-none"></div>
         <div className="content-layout relative z-10">
-          <Experience />
-          {/* <Portfolio /> */}
+          {/* <Experience /> */}
+          <Portfolio />
         </div>
       </div>
 
