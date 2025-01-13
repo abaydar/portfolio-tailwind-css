@@ -3,9 +3,10 @@ import './App.css';
 import Header from './components/header';
 import Skills from './components/skills';
 import Summary from './components/summary';
-import AboutMe from './components/aboutMe';
+// import AboutMe from './components/aboutMe';
 import ContactFooter from './components/contactFooter';
 import Portfolio from './components/portfolio';
+import ContactMe from './components/contactMe';
 
 function App() {
   return (
@@ -59,7 +60,8 @@ function App() {
         </svg>
         <div className="w-screen bg-lightBlue text-darkBlue">
           <div className="content-layout">
-            <AboutMe />
+            {/* <AboutMe /> */}
+            <ContactMe />
           </div>
         </div>
       </div>
