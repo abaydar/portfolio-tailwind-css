@@ -13,7 +13,7 @@ function App() {
       <Header />
 
       <div className="relative w-screen bg-gradient-to-r from-gradientDarkBlue to-gradientLightBlue">
-        <div className="absolute inset-0 before:absolute before:inset-0 before:bg-[url('/src/assets/images/circuitRight.png')] before:bg-no-repeat before:bg-cover before:bg-center before:opacity-50"></div>
+        <div className="absolute inset-0 before:absolute before:inset-0 before:bg-[url('/public/images/circuitRight.png')] before:bg-no-repeat before:bg-cover before:bg-center before:opacity-50"></div>
         <div className="content-layout relative z-10">
           <Summary />
         </div>
@@ -43,7 +43,7 @@ function App() {
       </div>
 
       <div className="relative w-screen bg-gradient-to-r from-gradientDarkBlue to-gradientLightBlue">
-        <div className="absolute inset-0 before:absolute before:inset-0 before:bg-[url('/src/assets/images/circuitLeft.png')] before:bg-no-repeat before:bg-cover before:bg-center before:opacity-50 pointer-events-none"></div>
+        <div className="absolute inset-0 before:absolute before:inset-0 before:bg-[url('/public/images/circuitLeft.png')] before:bg-no-repeat before:bg-cover before:bg-center before:opacity-50 pointer-events-none"></div>
         <div className="content-layout relative z-10">
           {/* <Experience /> */}
           <Portfolio />
